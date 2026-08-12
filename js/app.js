@@ -27,8 +27,8 @@ async function fazerPOST() {
     const usuarioNovo = {
         nome: document.getElementById("inputNome").value,
         idade: document.getElementById("inputIdade").value,
-        registro: document.getElementById("inputRegistroAluno").value,
-        email: document.getElementById("inputEmailInstitucional").value,
+        registro: document.getElementById("inputRegistro").value,
+        email: document.getElementById("inputEmail").value,
         turma: document.getElementById("inputTurma").value,
         periodo: document.getElementById("inputPeriodo").value,
         apresentacao: document.getElementById("inputApresentacao").value
@@ -54,8 +54,8 @@ async function fazerPUT() {
     const usuarioAtualizado = {
         nome: document.getElementById("inputNome").value,
         idade: document.getElementById("inputIdade").value,
-        registro: document.getElementById("inputRegistroAluno").value,
-        email: document.getElementById("inputEmailInstitucional").value,
+        registro: document.getElementById("inputRegistro").value,
+        email: document.getElementById("inputEmail").value,
         turma: document.getElementById("inputTurma").value,
         periodo: document.getElementById("inputPeriodo").value,
         apresentacao: document.getElementById("inputApresentacao").value
